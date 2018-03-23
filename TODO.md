@@ -61,7 +61,8 @@
 
 ### Music
 
-Links and references:
+
+## References
 
 - [State of Dapps - ethereum Dapps proposals](https://www.stateofthedapps.com/)
 - [composer sample networks / Dapps ](https://github.com/hyperledger/composer-sample-networks/tree/v0.16.x/packages)
