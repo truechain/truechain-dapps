@@ -64,6 +64,7 @@
 
 ## References
 
+- [Hyperledger use cases - Requirements Working Group (WG) ](https://wiki.hyperledger.org/groups/requirements/use-case-inventory)
 - [State of Dapps - ethereum Dapps proposals](https://www.stateofthedapps.com/)
 - [composer sample networks / Dapps ](https://github.com/hyperledger/composer-sample-networks/tree/v0.16.x/packages)
 - [WebOfTrustInfo topis and advanced readings - consensus design and Dapps](https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust/tree/master/topics-and-advance-readings#topics--advance-readings)
