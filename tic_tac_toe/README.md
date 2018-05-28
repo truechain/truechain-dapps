@@ -1,1 +1,4 @@
 # tic_tac_toe
+以太坊三连棋游戏
+本项目基于ERC20协议
+项目部署前，使用前先初始化nodejs的module
