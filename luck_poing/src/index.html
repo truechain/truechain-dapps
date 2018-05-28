@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="msapplication-tap-highlight" content="no" />
+	<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+	<meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src * 'unsafe-inline'; media-src *" />
+	<title>以太幸运点</title>
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="js/game.js"></script>
+</head>
+<body class="body-bg">
+<div class="body-box">
+	<div class="headertitle">
+		<img class="header-logo" src="images/logo.png" width="317" height="88">
+		<button class="header-create" type="button" onclick="App.onClickBtnCreate(this);">创建新游戏</button>
+	</div>
+
+
+	<div class="container">
+		<div class="game_box">
+			<div class="game_player_box">
+				<div class="game_player_title">
+					<span>Alice</span>
+				</div>
+				<div class="game_player_image">
+					<img src="images/player1s.png">
+				</div>
+				<div class="game_player_btn">
+					<button id="button_player1" type="button" onclick="App.onClickBtnPlay(1);">下注</button>
+				</div>
+			</div>
+
+			<div class="game_status_box">
+				<div class="game_status_title">
+					<span id="game_status_text">玩家可以下注了！</span>
+				</div>
+				<div class="game_status_image">
+					<img src="images/presenter.png">
+				</div>
+				<div class="game_status_btn">
+					<button type="button" onclick="App.onClickBtnStatus(this);">刷新游戏</button>
+				</div>
+			</div>
+
+			<div class="game_player_box">
+				<div class="game_player_title">
+					<span>Bob</span>
+				</div>
+				<div class="game_player_image">
+					<img src="images/player2s.png">
+				</div>
+				<div class="game_player_btn">
+					<button id="button_player2" type="button" onclick="App.onClickBtnPlay(2);">下注</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/web3.min.js"></script>
+	<script src="js/truffle-contract.js"></script>
+	<script src="js/app.js"></script>
+
+</body>
+</html>

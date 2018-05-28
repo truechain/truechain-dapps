@@ -1,0 +1,233 @@
+.ml-8{
+	margin-left: 8px;
+}
+.ml-10{
+	margin-left: 10px;
+}
+.ml-15{
+	margin-left: 15px;
+}
+.ml-20{
+	margin-left: 20px;
+}
+
+.w80{
+	width: 80px;
+}
+.w100{
+	width: 100px;
+}
+.w120{
+	width: 120px !important;
+}
+
+.body-bg{
+	position:fixed;
+	top: 0;
+	left: 0;
+	width:100%;
+	height:100%;
+	z-index:-10;
+	zoom: 1;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	background-position: center 0;
+
+	background-image: url(../images/bg.jpg);
+}
+
+.headertitle{
+	float: center;
+	width: 100%;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	margin-top: 20px;
+}
+.header-logo{
+	float: left;
+	line-height: 100px;
+	padding-left: 15px;
+}
+.header-create{
+	float: left;
+	width: 150px;
+	height: 45px;
+	line-height: 20px;
+	font-size: 18px;
+	color: #ffffff;
+	text-align: center;
+	border-color: #553300;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 3px;
+	opacity: 0.8;
+	margin-top: 20px;
+	margin-left: 100px;
+	background-color: #ff3300;
+}
+.headertitle span{
+	float: left;
+	height: 100px;
+	line-height: 100px;
+	font-size: 18px;
+	color: #FFFFFF;
+	overflow-y: hidden;
+	overflow-x: scroll;
+	text-align: center;
+}
+
+.container{
+	width: 100%;
+	min-height: 380px;
+	margin-top: 20px;
+}
+
+.game_box{
+	width: 790px;
+	height: 480px;
+	padding-top: 15px;
+	padding-left: 10px;
+	margin-left: 25px;
+	border-color: #737373;
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 3px;
+	opacity: 0.8;
+	background-color: #ffffff;
+}
+
+.game_player_box{
+	float: left;
+	width: 220px;
+	height: 360px;
+	margin-top: 35px;
+	margin-left: 15px;
+	border-color: #737373;
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 3px;
+	background-color: #f3f3f3;
+}
+.game_player_title{
+	width: 100%;
+	height: 45px;
+	line-height: 35px;
+}
+.game_player_title span{
+	display: block;
+	width: 100%;
+	line-height: 45px;
+	color: #ff3300;
+	font-size: 20px;
+	text-align: center;
+	margin-top: 15px;
+}
+.game_player_image{
+	width: 200px;
+	height: 200px;
+	text-align: center;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.game_player_image img{
+	width: 165px;
+	height: 165px;
+	margin-left: 0px;
+	margin-top: 15px;
+	border-color: #737373;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 3px;
+}
+.game_player_btn{
+	width: 200px;
+	height: 60px;
+	text-align: center;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.game_player_btn button{
+	width: 165px;
+	height: 45px;
+	color: white;
+	font-size: 18px;
+	border-color: #737373;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 3px;
+	outline: none;
+	opacity: 1.0;
+	top: 10px;
+	margin-top: 5px;
+	background-color: #ff3300;
+}
+
+.game_status_box{
+	float: left;
+	width: 260px;
+	height: 410px;
+	text-align: center;
+	margin-top: 15px;
+	margin-left: 20px;
+	margin-right: 5px;
+	border-color: #737373;
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 3px;
+	background-color: #f3f3f3;
+}
+.game_status_title{
+	width: 100%;
+	height: 45px;
+	line-height: 35px;
+	margin-top: 15px;
+}
+.game_status_title span{
+	display: block;
+	width: 100%;
+	line-height: 45px;
+	color: #ff3300;
+	font-size: 24px;
+	text-align: center;
+	margin-top: 15px;
+}
+.game_status_image{
+	width: 220px;
+	height: 240px;
+	text-align: center;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.game_status_image img{
+	width: 160px;
+	height: 220px;
+	border-color: #737373;
+	border-width: 0px;
+	border-style: solid;
+	border-radius: 3px;
+}
+.game_status_btn{
+	width: 220px;
+	height: 60px;
+	text-align: center;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+.game_status_btn button{
+	width: 165px;
+	height: 45px;
+	color: white;
+	font-size: 18px;
+	border-color: #737373;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 3px;
+	outline: none;
+	opacity: 1.0;
+	top: 10px;
+	margin-top: 5px;
+	background-color: #ff3300;
+}
